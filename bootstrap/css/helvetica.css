@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 500;
+	font-style: normal;
+	src: url("../fonts/Helvetica Neue.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 500;
+	font-style: italic;
+	src: url("../fonts/Helvetica Neue Italic.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../fonts/Helvetica Neue Bold.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+	font-style: italic;
+	src: url("../fonts/Helvetica Neue Bold Italic.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../fonts/Helvetica Neue Light.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 300;
+	font-style: italic;
+	src: url("../fonts/Helvetica Neue Light Italic.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-style: normal;
+	src: url("../fonts/Helvetica Neue UltraLight.ttf");
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	font-style: italic;
+	src: url("../fonts/Helvetica Neue UltraLight Italic.ttf");
+}

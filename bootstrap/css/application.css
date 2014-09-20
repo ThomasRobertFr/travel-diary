@@ -1,0 +1,43 @@
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px }
+
+#main { text-align: justify; }
+.carnet-texte { padding-left: 0; vertical-align: bottom; }
+.preview { padding-right: 0; vertical-align: bottom; padding-bottom: 10px; text-align: center; }
+.preview img { max-width: 98%; box-shadow: 1px 1px 12px #555; padding: 1%; max-height: 900px; }
+.preview .caption {  }
+.images { padding : 0; }
+.images a.thumbnail { height: 100px; margin: 0 10px 10px 0; float: left; max-width: 300px; }
+.images a.thumbnail img { height: 100%; }
+
+#header {
+  position: relative;
+  margin-top: 51px;
+  padding: 62px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #020031; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #020031 0%, #6d3353 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+#header h1 {font-size: 85px; font-weight: 300; letter-spacing: -1px; line-height: 1; margin: 0; margin-bottom: 63px; }
+#header p {font-size: 22px; font-weight: 300; line-height: 1.25; margin-bottom: 12px; }
+#header p small { font-size: 80%; }
+#header a {color: #fff; color: rgba(255,255,255,.5); -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+#header a:hover {color: #fff; text-shadow: 0 0 10px rgba(255,255,255,.25); }
+#header .container {position: relative; z-index: 2; }
+#header:after {content: ''; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: .55; background: url(header.png) repeat; }
